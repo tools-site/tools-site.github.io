@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seiri&#39;s 网址导航</title>
+    <link>https://tools-site.github.io/</link>
+    <description>Recent content on Seiri&#39;s 网址导航</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Seiri All rights reserved</copyright><atom:link href="https://tools-site.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于本站的隐私政策</title>
+      <link>https://tools-site.github.io/about/</link>
+      <pubDate>Thu, 05 Oct 2023 14:34:03 +0900</pubDate>
+      
+      <guid>https://tools-site.github.io/about/</guid>
+      <description>获取用户信息 获取用户信息本网站不会获取用户的个人信息。 利用用户信息 本网站不使用使用者的个人信息。 用户信息的第三方提供 本网站不向第三方提供用户</description>
+    </item>
+    
+  </channel>
+</rss>
