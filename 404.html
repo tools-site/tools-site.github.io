@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
+    <title>Seiri&#39;s 网址导航 - 404 Page Not Found</title>
     <meta name="theme-color" content="#2C2E2F" />
     <meta name="keywords" content="导航,网站,工具,tools,website" />
     <meta name="description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站"> <meta name="og:description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站">
@@ -13,13 +14,20 @@
     <meta property="og:url" content="https://tools-site.github.io/404.html" />
     <meta property="og:title" content="Seiri&#39;s 网址导航" />
     <meta property="og:site_name" content="Seiri&#39;s 网址导航" />
-    <meta
-      name="google-site-verification"
-      content="G-ZG9CDMCW57"
-    />
-    <link rel="shortcut icon" href="./favicon.png" />
-    <link rel="apple-touch-icon" href="./app-ico.png" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/images/app-ico.png" />
     <link rel="canonical" href="https://tools-site.github.io/404.html">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG9CDMCW57"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZG9CDMCW57', { 'anonymize_ip': false });
+}
+</script>
+
     <link
       rel="stylesheet"
       id="font-awesome-css"
@@ -55,24 +63,15 @@
       })();
     </script>
   </head>
-  <body
-    class="page-body white"
-  >
+  <body class="page-body">
     <div class="page-container">
       <div class="sidebar-menu toggle-others fixed">
         <div class="sidebar-menu-inner">
           <header class="logo-env">
             
             <div class="logo">
-              <a href="index.html" class="logo-expanded">
-                <img src="./assets/images/logo.png" height="40" alt="site logo" />
-              </a>
-              <a href="index.html" class="logo-collapsed">
-                <img
-                  src="./assets/images/logo-collapsed@2x.png"
-                  height="40"
-                  alt=""
-                />
+              <a href="index.html">
+                <h1 class="site-title">Seiri&#39;s 网址导航</h1>
               </a>
             </div>
             <div class="mobile-menu-toggle visible-xs">
@@ -92,6 +91,10 @@
                 
                 <li>
                   <a href="#4a8bdd720b220275a5a29b10a5d49cb5" class="smooth">编程与开发</a>
+                </li>
+                
+                <li>
+                  <a href="#cb6d86f983ccb3fe8a9b89ef3e8671a6" class="smooth">前端框架</a>
                 </li>
                 
                 <li>
@@ -154,9 +157,9 @@
             </li>
               
             <li>
-              <a href="#51e9743451d44c9e10ca584546782491" class="smooth">
+              <a href="#77ae7582adc29da7e432bf35693205b8" class="smooth">
                 <i class="fa fa-film fa-fw"></i>
-                <span class="title">电影</span>
+                <span class="title">影视</span>
               </a>
             </li>
               
@@ -193,7 +196,6 @@
     <div class="s-type">
       <span></span>
       <div class="s-type-list animated fadeInUp">
-        <label for="type-baidu">常用</label>
         <label for="type-search">搜索</label>
         <label for="type-br">工具</label>
         <label for="type-zhihu">社区</label>
@@ -201,31 +203,18 @@
         <label for="type-zhaopin">求职</label>
       </div>
     </div>
-    <div class="search-group group-a">
-      <span class="type-text">常用</span>
+    <div class="search-group group-b">
+      <span class="type-text">搜索</span>
       <ul class="search-type">
         <li>
           <input
-            checked
             hidden
             type="radio"
             name="type"
-            id="type-baidu"
-            value="https://www.baidu.com/s?wd="
-            data-placeholder="百度一下"
-          /><label for="type-baidu"
-            ><span style="color: #2100e0">百度</span></label
-          >
-        </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-google"
+            id="type-google1"
             value="https://www.google.com/search?q="
             data-placeholder="谷歌"
-          /><label for="type-google"
+          /><label for="type-google1"
             ><span style="color: #3b83fa">G</span
             ><span style="color: #f3442c">o</span
             ><span style="color: #ffc300">o</span
@@ -234,23 +223,6 @@
             ><span style="color: #f54231">e</span></label
           >
         </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-bing1"
-            value="https://cn.bing.com/search?q="
-            data-placeholder="微软Bing搜索"
-          /><label for="type-bing1"
-            ><span style="color: #007daa">Bing</span></label
-          >
-        </li>
-      </ul>
-    </div>
-    <div class="search-group group-b">
-      <span class="type-text">搜索</span>
-      <ul class="search-type">
         <li>
           <input
             hidden
@@ -268,16 +240,11 @@
             hidden
             type="radio"
             name="type"
-            id="type-google1"
-            value="https://www.google.com/search?q="
-            data-placeholder="谷歌"
-          /><label for="type-google1"
-            ><span style="color: #3b83fa">G</span
-            ><span style="color: #f3442c">o</span
-            ><span style="color: #ffc300">o</span
-            ><span style="color: #4696f8">g</span
-            ><span style="color: #2cab4e">l</span
-            ><span style="color: #f54231">e</span></label
+            id="type-bing"
+            value="https://cn.bing.com/search?q="
+            data-placeholder="微软Bing搜索"
+          /><label for="type-bing"
+            ><span style="color: #007daa">Bing</span></label
           >
         </li>
         <li>
@@ -302,18 +269,6 @@
             data-placeholder="搜狗搜索"
           /><label for="type-sogo"
             ><span style="color: #ff5943">搜狗</span></label
-          >
-        </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-bing"
-            value="https://cn.bing.com/search?q="
-            data-placeholder="微软Bing搜索"
-          /><label for="type-bing"
-            ><span style="color: #007daa">Bing</span></label
           >
         </li>
         <li>
@@ -673,10 +628,17 @@
 
 
 
-        <div class="sites-list" style="margin-bottom: 8.5rem">
-          <h2 style="text-align: center">Page Not Found</h2>
+        <div class="content" style="margin-bottom: 8.5rem">
+          <h2 style="text-align: center;height: 580px;">Page Not Found</h2>
         </div>
         <footer class="main-footer sticky footer-type-1">
+          
+          <div class="dark-mode">
+            <div>
+              <i class="fa fa-moon-o" id="darkMode"></i>
+            </div>
+          </div>
+          
           <div class="go-up">
             <a href="#" rel="go-top">
               <i class="fa fa-angle-up"></i>

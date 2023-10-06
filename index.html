@@ -10,16 +10,25 @@
     <title>Seiri&#39;s 网址导航</title>
     <meta name="theme-color" content="#2C2E2F" />
     <meta name="keywords" content="导航,网站,工具,tools,website" />
-    <meta name="description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站">
-    <meta name="og:description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站">
+    <meta name="description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站"> <meta name="og:description" content="一个在线工具，学习，影视，音乐，游戏，壁纸等实用的网址导航网站">
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tools-site.github.io/" />
     <meta property="og:title" content="Seiri&#39;s 网址导航" />
     <meta property="og:site_name" content="Seiri&#39;s 网址导航" />
-    <meta name="google-site-verification" content="G-ZG9CDMCW57">
-    <link rel="shortcut icon" href="./assets/favicon.png" />
-    <link rel="apple-touch-icon" href="./assets/app-ico.png" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/images/app-ico.png" />
     <link rel="canonical" href="https://tools-site.github.io/">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG9CDMCW57"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZG9CDMCW57', { 'anonymize_ip': false });
+}
+</script>
+
     <link
       rel="stylesheet"
       id="font-awesome-css"
@@ -55,24 +64,15 @@
       })();
     </script>
   </head>
-  <body
-    class="page-body white"
-  >
+  <body class="page-body">
     <div class="page-container">
       <div class="sidebar-menu toggle-others fixed">
         <div class="sidebar-menu-inner">
           <header class="logo-env">
             
             <div class="logo">
-              <a href="index.html" class="logo-expanded">
-                <img src="./assets/images/logo.png" height="40" alt="site logo"/>
-              </a>
-              <a href="index.html" class="logo-collapsed">
-                <img
-                  src="./assets/images/logo-collapsed@2x.png"
-                  height="40"
-                  alt=""
-                />
+              <a href="index.html">
+                <h1 class="site-title">Seiri&#39;s 网址导航</h1>
               </a>
             </div>
             <div class="mobile-menu-toggle visible-xs">
@@ -92,6 +92,10 @@
                 
                 <li>
                   <a href="#4a8bdd720b220275a5a29b10a5d49cb5" class="smooth">编程与开发</a>
+                </li>
+                
+                <li>
+                  <a href="#cb6d86f983ccb3fe8a9b89ef3e8671a6" class="smooth">前端框架</a>
                 </li>
                 
                 <li>
@@ -154,9 +158,9 @@
             </li>
               
             <li>
-              <a href="#51e9743451d44c9e10ca584546782491" class="smooth">
+              <a href="#77ae7582adc29da7e432bf35693205b8" class="smooth">
                 <i class="fa fa-film fa-fw"></i>
-                <span class="title">电影</span>
+                <span class="title">影视</span>
               </a>
             </li>
               
@@ -193,7 +197,6 @@
     <div class="s-type">
       <span></span>
       <div class="s-type-list animated fadeInUp">
-        <label for="type-baidu">常用</label>
         <label for="type-search">搜索</label>
         <label for="type-br">工具</label>
         <label for="type-zhihu">社区</label>
@@ -201,31 +204,18 @@
         <label for="type-zhaopin">求职</label>
       </div>
     </div>
-    <div class="search-group group-a">
-      <span class="type-text">常用</span>
+    <div class="search-group group-b">
+      <span class="type-text">搜索</span>
       <ul class="search-type">
         <li>
           <input
-            checked
             hidden
             type="radio"
             name="type"
-            id="type-baidu"
-            value="https://www.baidu.com/s?wd="
-            data-placeholder="百度一下"
-          /><label for="type-baidu"
-            ><span style="color: #2100e0">百度</span></label
-          >
-        </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-google"
+            id="type-google1"
             value="https://www.google.com/search?q="
             data-placeholder="谷歌"
-          /><label for="type-google"
+          /><label for="type-google1"
             ><span style="color: #3b83fa">G</span
             ><span style="color: #f3442c">o</span
             ><span style="color: #ffc300">o</span
@@ -234,23 +224,6 @@
             ><span style="color: #f54231">e</span></label
           >
         </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-bing1"
-            value="https://cn.bing.com/search?q="
-            data-placeholder="微软Bing搜索"
-          /><label for="type-bing1"
-            ><span style="color: #007daa">Bing</span></label
-          >
-        </li>
-      </ul>
-    </div>
-    <div class="search-group group-b">
-      <span class="type-text">搜索</span>
-      <ul class="search-type">
         <li>
           <input
             hidden
@@ -268,16 +241,11 @@
             hidden
             type="radio"
             name="type"
-            id="type-google1"
-            value="https://www.google.com/search?q="
-            data-placeholder="谷歌"
-          /><label for="type-google1"
-            ><span style="color: #3b83fa">G</span
-            ><span style="color: #f3442c">o</span
-            ><span style="color: #ffc300">o</span
-            ><span style="color: #4696f8">g</span
-            ><span style="color: #2cab4e">l</span
-            ><span style="color: #f54231">e</span></label
+            id="type-bing"
+            value="https://cn.bing.com/search?q="
+            data-placeholder="微软Bing搜索"
+          /><label for="type-bing"
+            ><span style="color: #007daa">Bing</span></label
           >
         </li>
         <li>
@@ -302,18 +270,6 @@
             data-placeholder="搜狗搜索"
           /><label for="type-sogo"
             ><span style="color: #ff5943">搜狗</span></label
-          >
-        </li>
-        <li>
-          <input
-            hidden
-            type="radio"
-            name="type"
-            id="type-bing"
-            value="https://cn.bing.com/search?q="
-            data-placeholder="微软Bing搜索"
-          /><label for="type-bing"
-            ><span style="color: #007daa">Bing</span></label
           >
         </li>
         <li>
@@ -700,16 +656,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/github.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>GitHub</strong>
                     </div>
-                    <p class="overflowClip_2">GitHub is a web-based platform for version control using git.</p>
+                    <p class="overflowClip_2">GitHub是一个基于Git的版本控制的Web平台。</p>
                   </div>
                 </div>
               </a>
@@ -729,16 +685,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/gitlab.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>GitLab</strong>
                     </div>
-                    <p class="overflowClip_2">GitLab is a web-based Git repository manager that provides source code management (SCM), continuous integration, and more.</p>
+                    <p class="overflowClip_2">GitLab是一个基于Web的Git仓库管理器，提供源代码管理（SCM）、持续集成等功能。</p>
                   </div>
                 </div>
               </a>
@@ -758,16 +714,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/codepen.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>CodePen</strong>
                     </div>
-                    <p class="overflowClip_2">CodePen is a social development environment for front-end designers and developers.</p>
+                    <p class="overflowClip_2">CodePen是一个面向前端设计师和开发者的社交开发环境。</p>
                   </div>
                 </div>
               </a>
@@ -787,16 +743,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/stackblitz.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>StackBlitz</strong>
                     </div>
-                    <p class="overflowClip_2">StackBlitz is an online IDE for web applications, powered by Visual Studio Code.</p>
+                    <p class="overflowClip_2">StackBlitz是一个由Visual Studio Code支持的在线Web应用程序集成开发环境（IDE）。</p>
                   </div>
                 </div>
               </a>
@@ -816,16 +772,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/jsfiddle.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>JSFiddle</strong>
                     </div>
-                    <p class="overflowClip_2">JSFiddle is an online IDE for web development, particularly JavaScript, HTML, and CSS.</p>
+                    <p class="overflowClip_2">JSFiddle是一个用于Web开发的在线IDE，主要用于JavaScript、HTML和CSS。</p>
                   </div>
                 </div>
               </a>
@@ -845,16 +801,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/glitch.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Glitch</strong>
                     </div>
-                    <p class="overflowClip_2">Glitch is a friendly community where you can build and deploy web apps.</p>
+                    <p class="overflowClip_2">Glitch是一个友好的社区，您可以在其中构建和部署Web应用程序。</p>
                   </div>
                 </div>
               </a>
@@ -874,16 +830,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/jsbin.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>JS Bin</strong>
                     </div>
-                    <p class="overflowClip_2">JS Bin is a collaborative JavaScript debugging tool.</p>
+                    <p class="overflowClip_2">JS Bin是一个协作式JavaScript调试工具。</p>
                   </div>
                 </div>
               </a>
@@ -903,16 +859,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/replit.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Repl.it</strong>
                     </div>
-                    <p class="overflowClip_2">Repl.it is an online IDE supporting many languages, including Python, JavaScript, and more.</p>
+                    <p class="overflowClip_2">Repl.it是一个在线IDE，支持多种编程语言，包括Python、JavaScript等。</p>
                   </div>
                 </div>
               </a>
@@ -932,16 +888,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/jsonlint.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>JSONLint</strong>
                     </div>
-                    <p class="overflowClip_2">JSONLint is a validator and reformatter for JSON, helping you debug and format JSON data.</p>
+                    <p class="overflowClip_2">JSONLint是一个用于验证和重新格式化JSON的工具，帮助您调试和格式化JSON数据。</p>
                   </div>
                 </div>
               </a>
@@ -961,16 +917,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/swagger-inspector.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Swagger Inspector</strong>
                     </div>
-                    <p class="overflowClip_2">Swagger Inspector allows you to test and auto-generate API documentation from your existing API.</p>
+                    <p class="overflowClip_2">Swagger Inspector允许您测试并从现有API自动生成API文档。</p>
                   </div>
                 </div>
               </a>
@@ -990,16 +946,669 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/kaggle-kernels.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Kaggle Kernels</strong>
                     </div>
-                    <p class="overflowClip_2">Kaggle Kernels is a cloud-based workbench for data science and machine learning where you can create, edit, and run Jupyter Notebooks.</p>
+                    <p class="overflowClip_2">Kaggle Kernels是一个基于云的数据科学和机器学习工作台，您可以在其中创建、编辑和运行Jupyter笔记本。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+             
+          </div>
+          <br />
+          
+          
+          
+          <h4 class="text-gray" style="display: inline-block">
+            <i
+              class="icon-io-tag"
+              style="margin-right: 27px"
+              id="cb6d86f983ccb3fe8a9b89ef3e8671a6"
+            ></i
+            >前端框架
+          </h4>
+          <div class="row">
+             
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://getbootstrap.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://getbootstrap.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/bootstrap.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Bootstrap</strong>
+                    </div>
+                    <p class="overflowClip_2">Bootstrap是一个免费开源的CSS框架，专注于响应式、移动优先的前端Web开发。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://bulma.io/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://bulma.io/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/bulma.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Bulma</strong>
+                    </div>
+                    <p class="overflowClip_2">Bulma是一个基于Flexbox构建的现代CSS框架，使用Sass构建，为您提供最高效的工具来构建您的界面。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://element.eleme.io/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://element.eleme.io/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/element.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Element</strong>
+                    </div>
+                    <p class="overflowClip_2">Element是Vue.js 2.0的Web UI工具包。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://vuetifyjs.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://vuetifyjs.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/vuetify.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Vuetify</strong>
+                    </div>
+                    <p class="overflowClip_2">Vue.js 2.0的Material组件框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://vuepress.vuejs.org/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://vuepress.vuejs.org/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/vuepress.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>VuePress</strong>
+                    </div>
+                    <p class="overflowClip_2">由Vue驱动的静态网站生成器。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://vuejs.org/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://vuejs.org/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/vue.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Vue.js</strong>
+                    </div>
+                    <p class="overflowClip_2">渐进式JavaScript框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://reactjs.org/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/react.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>React</strong>
+                    </div>
+                    <p class="overflowClip_2">React是用于构建用户界面的JavaScript库。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://angular.io/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://angular.io/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/angular.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Angular</strong>
+                    </div>
+                    <p class="overflowClip_2">Angular是构建移动和桌面Web应用程序的平台。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://semantic-ui.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://semantic-ui.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/semantic-ui.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Semantic UI</strong>
+                    </div>
+                    <p class="overflowClip_2">Semantic UI是一个使用人类友好HTML的开发框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://tailwindcss.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/tailwindcss.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Tailwind CSS</strong>
+                    </div>
+                    <p class="overflowClip_2">Tailwind CSS是一个用于快速构建自定义设计的实用程序优先的CSS框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://material-ui.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://material-ui.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/material-ui.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Material UI</strong>
+                    </div>
+                    <p class="overflowClip_2">用于构建UI组件的框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://purecss.io/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://purecss.io/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/purecss.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Pure CSS</strong>
+                    </div>
+                    <p class="overflowClip_2">Pure是一组小巧、响应式的CSS模块，可以在每个Web项目中使用。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://ant.design/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://ant.design/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/ant-design.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Ant Design</strong>
+                    </div>
+                    <p class="overflowClip_2">Ant Design是面向企业级产品的设计系统。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://materializecss.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://materializecss.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/materializecss.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Materialize CSS</strong>
+                    </div>
+                    <p class="overflowClip_2">Materialize是基于Google的Material Design的现代响应式CSS框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://tachyons.io/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://tachyons.io/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/tachyons.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Tachyons</strong>
+                    </div>
+                    <p class="overflowClip_2">Tachyons是用于快速构建响应式布局的功能性CSS库。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://getuikit.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://getuikit.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/uikit.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>UIkit</strong>
+                    </div>
+                    <p class="overflowClip_2">UIkit是一个轻量级、模块化的用于开发快速、强大Web界面的前端框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://picturepan2.github.io/spectre/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://picturepan2.github.io/spectre/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/spectre.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>SPECTRE</strong>
+                    </div>
+                    <p class="overflowClip_2">Spectre.css是用于更快速、可扩展开发的轻量级响应式CSS框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://primer.style/css"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://primer.style/css"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/primer.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Primer CSS</strong>
+                    </div>
+                    <p class="overflowClip_2">Primer CSS是用于构建美观、响应式和高级用户界面的设计系统。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://andybrewer.github.io/mvp/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://andybrewer.github.io/mvp/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/mvp.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>MPV CSS</strong>
+                    </div>
+                    <p class="overflowClip_2">用于简单网页的极简主义CSS框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://newcss.net/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://newcss.net/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/new.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>new.css</strong>
+                    </div>
+                    <p class="overflowClip_2">new.css是用于简单网页的极简主义CSS框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://get.foundation/sites/docs/index.html"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://get.foundation/sites/docs/index.html"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/foundation.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Kitchen Sink</strong>
+                    </div>
+                    <p class="overflowClip_2">Foundation是全球最先进的响应式前端框架。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.w3schools.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.w3schools.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/w3schools.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>W3schools</strong>
+                    </div>
+                    <p class="overflowClip_2">W3schools是面向Web开发者的站点。</p>
                   </div>
                 </div>
               </a>
@@ -1034,16 +1643,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/google-docs.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Google Docs</strong>
                     </div>
-                    <p class="overflowClip_2">Google Docs is a web-based application for creating, editing, and storing documents online.</p>
+                    <p class="overflowClip_2">Google Docs是一个基于Web的应用程序，用于在线创建、编辑和存储文档。</p>
                   </div>
                 </div>
               </a>
@@ -1063,16 +1672,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/google-sheets.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Google Sheets</strong>
                     </div>
-                    <p class="overflowClip_2">Google Sheets is a web-based spreadsheet application where you can create, edit, and store spreadsheets online.</p>
+                    <p class="overflowClip_2">Google Sheets是一个基于Web的电子表格应用程序，您可以在其中创建、编辑和存储电子表格。</p>
                   </div>
                 </div>
               </a>
@@ -1092,16 +1701,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/google-slides.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Google Slides</strong>
                     </div>
-                    <p class="overflowClip_2">Google Slides is a web-based presentation application for creating, editing, and delivering presentations online.</p>
+                    <p class="overflowClip_2">Google Slides是一个基于Web的演示文稿应用程序，用于在线创建、编辑和展示演示文稿。</p>
                   </div>
                 </div>
               </a>
@@ -1121,16 +1730,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/microsoft-office-online.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Microsoft Office Online</strong>
                     </div>
-                    <p class="overflowClip_2">Microsoft Office Online allows you to create, view, edit, and share Word, Excel, PowerPoint, and OneNote files on your devices using a web browser.</p>
+                    <p class="overflowClip_2">Microsoft Office Online允许您在设备上使用Web浏览器创建、查看、编辑和共享Word、Excel、PowerPoint和OneNote文件。</p>
                   </div>
                 </div>
               </a>
@@ -1150,16 +1759,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/trello.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Trello</strong>
                     </div>
-                    <p class="overflowClip_2">Trello is a web-based project management application that uses cards and boards to organize tasks and projects.</p>
+                    <p class="overflowClip_2">Trello是一个基于Web的项目管理应用程序，使用卡片和看板来组织任务和项目。</p>
                   </div>
                 </div>
               </a>
@@ -1179,16 +1788,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/asana.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Asana</strong>
                     </div>
-                    <p class="overflowClip_2">Asana is a web and mobile application designed to help teams organize, track, and manage their work projects and tasks.</p>
+                    <p class="overflowClip_2">Asana是一个旨在帮助团队组织、跟踪和管理工作项目和任务的Web和移动应用程序。</p>
                   </div>
                 </div>
               </a>
@@ -1208,16 +1817,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/evernote.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Evernote</strong>
                     </div>
-                    <p class="overflowClip_2">Evernote is a note-taking application that allows you to capture, organize, and share notes, images, and other content across devices.</p>
+                    <p class="overflowClip_2">Evernote是一个笔记应用程序，允许您在设备间捕捉、组织和共享笔记、图像和其他内容。</p>
                   </div>
                 </div>
               </a>
@@ -1237,16 +1846,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/lastpass.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>LastPass</strong>
                     </div>
-                    <p class="overflowClip_2">LastPass is a password manager and password generator that securely stores your passwords and personal information.</p>
+                    <p class="overflowClip_2">LastPass是一个密码管理器和密码生成器，安全地存储您的密码和个人信息。</p>
                   </div>
                 </div>
               </a>
@@ -1266,16 +1875,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/todoist.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Todoist</strong>
                     </div>
-                    <p class="overflowClip_2">Todoist is a task management and organization tool that helps you keep track of tasks, projects, and goals.</p>
+                    <p class="overflowClip_2">Todoist是一个任务管理和组织工具，帮助您跟踪任务、项目和目标。</p>
                   </div>
                 </div>
               </a>
@@ -1295,16 +1904,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/grammarly.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Grammarly</strong>
                     </div>
-                    <p class="overflowClip_2">Grammarly is a writing assistant that helps you write clear, effective, and mistake-free emails, documents, and social media posts.</p>
+                    <p class="overflowClip_2">Grammarly是一个写作助手，帮助您编写清晰、有效和无错误的电子邮件、文档和社交媒体帖子。</p>
                   </div>
                 </div>
               </a>
@@ -1339,16 +1948,45 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="assets/images/logos/fontawesome.png"
+                      data-src="assets/images/logos/fontawesomeicon.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Font Awesome</strong>
                     </div>
-                    <p class="overflowClip_2">The internet&#39;s icon library &#43; toolkit. Used by millions of designers, devs, &amp; content creators. Open-source. Always free. Always awesome.</p>
+                    <p class="overflowClip_2">互联网的图标库和工具套件。数百万设计师、开发者和内容创建者使用。开源。总是免费。总是很强大。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.awwwards.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.awwwards.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/awwwards.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Awwwards</strong>
+                    </div>
+                    <p class="overflowClip_2">Awwwards是一个全球开发者、设计师和网络代理机构的网站奖项，旨在recognize和promote他们的设计和开发 talent。</p>
                   </div>
                 </div>
               </a>
@@ -1370,14 +2008,14 @@
                       src="./assets/images/favicon.png"
                       data-src="assets/images/logos/unsplash.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Unsplash</strong>
                     </div>
-                    <p class="overflowClip_2">Unsplash offers high-quality, free photography that you can use for various creative projects.</p>
+                    <p class="overflowClip_2">Unsplash提供高质量的免费摄影，可用于各种创意项目。</p>
                   </div>
                 </div>
               </a>
@@ -1399,14 +2037,43 @@
                       src="./assets/images/favicon.png"
                       data-src="assets/images/logos/pexels.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Pexels</strong>
                     </div>
-                    <p class="overflowClip_2">Pexels provides free high-quality photos, videos, and editing resources for personal and commercial use.</p>
+                    <p class="overflowClip_2">Pexels提供免费的高质量照片、视频和编辑资源，供个人和商业用途使用。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://material.io/icons/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://material.io/icons/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/Materialicons.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Material icons</strong>
+                    </div>
+                    <p class="overflowClip_2">获取超过900个材质系统图标，可在各种大小和密度下使用，并可作为Web字体。</p>
                   </div>
                 </div>
               </a>
@@ -1426,16 +2093,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="assets/images/logos/adobe.svg"
+                      data-src="assets/images/logos/adobe.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Adobe Stock</strong>
                     </div>
-                    <p class="overflowClip_2">Adobe Stock provides high-quality stock images, videos, audio, and 3D assets for your creative projects.</p>
+                    <p class="overflowClip_2">Adobe Stock提供高质量的库存图像、视频、音频和3D资产，供您的创意项目使用。</p>
                   </div>
                 </div>
               </a>
@@ -1455,16 +2122,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/shutterstock.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Shutterstock</strong>
                     </div>
-                    <p class="overflowClip_2">Shutterstock offers high-quality photos, illustrations, audio, and video assets for commercial and creative use.</p>
+                    <p class="overflowClip_2">Shutterstock提供高质量的照片、插图、音频和视频资产，供商业和创意用途使用。</p>
                   </div>
                 </div>
               </a>
@@ -1484,16 +2151,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/pixabay.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Pixabay</strong>
                     </div>
-                    <p class="overflowClip_2">Pixabay offers free high-quality photos, videos, vector graphics, and illustrations for personal and commercial use.</p>
+                    <p class="overflowClip_2">Pixabay提供免费的高质量照片、视频、矢量图形和插图，供个人和商业用途使用。</p>
                   </div>
                 </div>
               </a>
@@ -1513,16 +2180,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/canva.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Canva</strong>
                     </div>
-                    <p class="overflowClip_2">Canva is an online design platform offering thousands of templates and design elements for various projects.</p>
+                    <p class="overflowClip_2">Canva是一个在线设计平台，提供成千上万种模板和设计元素，适用于各种项目。</p>
                   </div>
                 </div>
               </a>
@@ -1542,16 +2209,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/vecteezy.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Vecteezy</strong>
                     </div>
-                    <p class="overflowClip_2">Vecteezy provides free vector art, icons, patterns, and graphics for your design projects.</p>
+                    <p class="overflowClip_2">Vecteezy提供免费的矢量艺术、图标、图案和图形，供您的设计项目使用。</p>
                   </div>
                 </div>
               </a>
@@ -1571,16 +2238,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/icons8.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Icons8</strong>
                     </div>
-                    <p class="overflowClip_2">Icons8 offers free icons, photos, and music resources for websites, mobile apps, and design projects.</p>
+                    <p class="overflowClip_2">Icons8提供免费的图标、照片和音乐资源，适用于网站、移动应用和设计项目。</p>
                   </div>
                 </div>
               </a>
@@ -1600,16 +2267,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/textures.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Textures.com</strong>
                     </div>
-                    <p class="overflowClip_2">Textures.com provides a vast collection of high-quality textures for 3D modeling and design projects.</p>
+                    <p class="overflowClip_2">Textures.com提供庞大的高质量纹理集合，适用于3D建模和设计项目。</p>
                   </div>
                 </div>
               </a>
@@ -1629,16 +2296,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/123rf.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>123RF</strong>
                     </div>
-                    <p class="overflowClip_2">123RF offers stock photos, vectors, and videos for your creative projects.</p>
+                    <p class="overflowClip_2">123RF提供用于您的创意项目的库存照片、矢量图和视频资源。</p>
                   </div>
                 </div>
               </a>
@@ -1658,16 +2325,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/getty.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Getty Images</strong>
                     </div>
-                    <p class="overflowClip_2">Getty Images provides premium stock photos, illustrations, and videos for commercial use.</p>
+                    <p class="overflowClip_2">Getty Images提供高品质的商业用途库存照片、插图和视频资源。</p>
                   </div>
                 </div>
               </a>
@@ -1687,16 +2354,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/dreamstime.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Dreamstime</strong>
                     </div>
-                    <p class="overflowClip_2">Dreamstime offers royalty-free stock images, photos, and videos for commercial use.</p>
+                    <p class="overflowClip_2">Dreamstime提供用于商业用途的免版税库存图像、照片和视频。</p>
                   </div>
                 </div>
               </a>
@@ -1716,16 +2383,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/creative-market.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Creative Market</strong>
                     </div>
-                    <p class="overflowClip_2">Creative Market provides unique design assets and creative resources for various projects.</p>
+                    <p class="overflowClip_2">Creative Market提供独特的设计资产和创意资源，适用于各种项目。</p>
                   </div>
                 </div>
               </a>
@@ -1745,16 +2412,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/alamy.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Alamy</strong>
                     </div>
-                    <p class="overflowClip_2">Alamy offers a vast collection of stock photos, vectors, and videos for creative projects.</p>
+                    <p class="overflowClip_2">Alamy提供庞大的库存照片、矢量图和视频资源，适用于创意项目。</p>
                   </div>
                 </div>
               </a>
@@ -1774,16 +2441,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/storyblocks.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Storyblocks</strong>
                     </div>
-                    <p class="overflowClip_2">Storyblocks provides high-quality stock videos, audio, and images for your creative needs.</p>
+                    <p class="overflowClip_2">Storyblocks为您的创意需求提供高质量的库存视频、音频和图像资源。</p>
                   </div>
                 </div>
               </a>
@@ -1803,16 +2470,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/depositphotos.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Depositphotos</strong>
                     </div>
-                    <p class="overflowClip_2">Depositphotos offers a wide selection of royalty-free photos, videos, and vectors.</p>
+                    <p class="overflowClip_2">Depositphotos提供丰富多样的免版税照片、视频和矢量图选择。</p>
                   </div>
                 </div>
               </a>
@@ -1832,16 +2499,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/envato-elements.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Envato Elements</strong>
                     </div>
-                    <p class="overflowClip_2">Envato Elements provides unlimited downloads of creative assets, including templates, fonts, and graphics.</p>
+                    <p class="overflowClip_2">Envato Elements提供创意资产的无限下载，包括模板、字体和图形等。</p>
                   </div>
                 </div>
               </a>
@@ -1861,16 +2528,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/motion-array.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Motion Array</strong>
                     </div>
-                    <p class="overflowClip_2">Motion Array offers video templates, stock music, and more for video and motion graphics projects.</p>
+                    <p class="overflowClip_2">Motion Array为视频和动态图形项目提供视频模板、库存音乐等。</p>
                   </div>
                 </div>
               </a>
@@ -1890,16 +2557,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/mixkit.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Mixkit</strong>
                     </div>
-                    <p class="overflowClip_2">Mixkit provides free stock video clips, music tracks, and sound effects for creative projects.</p>
+                    <p class="overflowClip_2">Mixkit提供免费的库存视频剪辑、音乐曲目和音效，适用于创意项目。</p>
                   </div>
                 </div>
               </a>
@@ -1919,16 +2586,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/freenaturestock.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>FREE NATURE STOCK</strong>
                     </div>
-                    <p class="overflowClip_2">FREE NATURE STOCK offers royalty-free nature images and videos for creative projects.</p>
+                    <p class="overflowClip_2">FREE NATURE STOCK提供免版税的自然图像和视频，适用于创意项目。</p>
                   </div>
                 </div>
               </a>
@@ -1948,16 +2615,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/openverse.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Openverse</strong>
                     </div>
-                    <p class="overflowClip_2">Search over 700 million free and openly licensed images, photos, audio, and other media types for reuse and remixing.</p>
+                    <p class="overflowClip_2">在Openverse上搜索超过7亿张免费和开放授权的图像、照片、音频和其他媒体类型，供重用和混合使用。</p>
                   </div>
                 </div>
               </a>
@@ -1992,9 +2659,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/58pic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2021,9 +2688,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/ui.cn.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2050,9 +2717,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/tooopen.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2079,9 +2746,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/sccnn.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2108,9 +2775,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/vcg.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2137,9 +2804,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/ibaotu.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2166,9 +2833,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/huaban.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2195,9 +2862,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/tuchong.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2224,9 +2891,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/uisdc.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2253,9 +2920,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/zcool.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2282,9 +2949,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/55la.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2311,9 +2978,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/ffpic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2340,9 +3007,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/365psd.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2369,9 +3036,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/nipic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2398,9 +3065,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/aigei.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2427,9 +3094,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/xsj.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2471,16 +3138,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/pakutaso.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>ぱくたそ</strong>
                     </div>
-                    <p class="overflowClip_2">ぱくたそは、無料で商用利用できる写真素材を提供する日本のサイトです。</p>
+                    <p class="overflowClip_2">ぱくたそ是一个提供免费商用可用照片素材的网站，来自日本。</p>
                   </div>
                 </div>
               </a>
@@ -2500,16 +3167,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/ac-illust.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>イラストAC</strong>
                     </div>
-                    <p class="overflowClip_2">イラストACは、無料でダウンロードできるイラスト素材を提供するサイトです。</p>
+                    <p class="overflowClip_2">イラストAC是一个提供免费图片素材的网站，包括各种类别。</p>
                   </div>
                 </div>
               </a>
@@ -2529,16 +3196,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/photo-ac.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>写真AC</strong>
                     </div>
-                    <p class="overflowClip_2">写真ACは、商用利用可能な写真素材を無料で提供するサイトです。</p>
+                    <p class="overflowClip_2">写真AC是一个提供免费商用可用照片素材的网站。</p>
                   </div>
                 </div>
               </a>
@@ -2558,16 +3225,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/saltycat.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>無料素材さーち</strong>
                     </div>
-                    <p class="overflowClip_2">無料素材さーちは、様々なカテゴリの素材を無料でダウンロードできるサイトです。</p>
+                    <p class="overflowClip_2">無料素材さーち是一个提供免费素材的网站，包括各种类别。</p>
                   </div>
                 </div>
               </a>
@@ -2587,16 +3254,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/pixta.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>PIXTA</strong>
                     </div>
-                    <p class="overflowClip_2">PIXTAは、日本のストックフォトサービスで、幅広いカテゴリの素材を提供しています。</p>
+                    <p class="overflowClip_2">PIXTA是一个提供来自日本的素材的素材服务，包括广泛的类别。</p>
                   </div>
                 </div>
               </a>
@@ -2616,16 +3283,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/irasutoya.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>写真素材 いらすとや</strong>
                     </div>
-                    <p class="overflowClip_2">いらすとやは、かわいいイラストや写真素材を提供する日本のサイトです。</p>
+                    <p class="overflowClip_2">いらすとや是一个提供可爱图片和照片素材的日语网站，来自日本。</p>
                   </div>
                 </div>
               </a>
@@ -2645,16 +3312,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/fotohiwa.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>写真素材 ふぉとぴあ</strong>
                     </div>
-                    <p class="overflowClip_2">ふぉとぴあは、商用利用可能な写真素材を提供するサイトです。</p>
+                    <p class="overflowClip_2">ふぉとぴあ是一个提供商用可用照片素材的网站。</p>
                   </div>
                 </div>
               </a>
@@ -2674,16 +3341,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/dotown.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>ドット絵ダウンロードサイト</strong>
                     </div>
-                    <p class="overflowClip_2">いもうとブログは、商用利用可能な写真素材を提供するサイトです。</p>
+                    <p class="overflowClip_2">いもうとブログ是一个提供商用可用照片素材的网站。</p>
                   </div>
                 </div>
               </a>
@@ -2703,16 +3370,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/photo-ac.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>写真AC</strong>
                     </div>
-                    <p class="overflowClip_2">写真ACは、商用利用可能な写真素材を無料で提供するサイトです。</p>
+                    <p class="overflowClip_2">写真AC是一个提供免费商用可用照片素材的网站。</p>
                   </div>
                 </div>
               </a>
@@ -2747,9 +3414,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/bbc.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2776,9 +3443,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/cnn.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2805,9 +3472,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/nyt.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2834,9 +3501,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/guardian.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2863,9 +3530,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/reuters.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2892,9 +3559,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/jazeera.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2921,9 +3588,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/washington-post.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2950,9 +3617,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/npr.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -2979,9 +3646,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/ap.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3008,9 +3675,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/time.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3037,9 +3704,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/cnbc.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3066,9 +3733,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/independent.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3095,9 +3762,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/telegraph.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3124,9 +3791,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/usa-today.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3153,9 +3820,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/business-insider.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3182,9 +3849,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/geographic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3211,9 +3878,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/the-atlantic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3240,9 +3907,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/huffpost.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3269,9 +3936,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/vox.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3298,9 +3965,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/buzzfeed-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3342,9 +4009,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/sina-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3371,9 +4038,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/qq-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3400,9 +4067,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/163-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3429,9 +4096,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/sohu-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3458,9 +4125,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/ifeng-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3487,9 +4154,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/chinadaily-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3516,9 +4183,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/huanqiu-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3545,9 +4212,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/people-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3574,9 +4241,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/gmw-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3603,9 +4270,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/chinanews-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3647,9 +4314,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/nhk-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3676,9 +4343,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/asahi-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3705,9 +4372,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/mainichi-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3734,9 +4401,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/yomiuri-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3763,9 +4430,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/nikkei-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3792,9 +4459,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/sankei-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3821,9 +4488,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/chunichi-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3850,9 +4517,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/tokyo-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3879,9 +4546,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/kyoto-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3908,9 +4575,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/hokkaido-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3952,9 +4619,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/russia-24-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -3981,9 +4648,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/rt-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4010,9 +4677,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/tass-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4039,9 +4706,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/ria-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4068,9 +4735,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/gazeta-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4097,9 +4764,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/lenta-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4126,9 +4793,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/kommersant-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4155,9 +4822,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/iz-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4184,9 +4851,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/vedomosti-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4213,9 +4880,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/mk-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4257,9 +4924,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/hankookilbo-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4286,9 +4953,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/chosun-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4315,9 +4982,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/joongang-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4344,9 +5011,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/hani-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4373,9 +5040,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/khan-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4402,9 +5069,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/hankyung-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4431,9 +5098,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/seoul-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4460,9 +5127,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/digital-times-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4489,9 +5156,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/hankookilbo-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4518,9 +5185,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src=""
+                      data-src="assets/images/logos/mk-news.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4542,12 +5209,476 @@
             <i
               class="icon-io-tag"
               style="margin-right: 27px"
-              id="51e9743451d44c9e10ca584546782491"
+              id="77ae7582adc29da7e432bf35693205b8"
             ></i
-            >电影
+            >影视
           </h4>
           <div class="row">
              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.youtube.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/youtube.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Youtube</strong>
+                    </div>
+                    <p class="overflowClip_2">Youtube 是一个视频网站，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.netflix.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.netflix.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/netflix.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>Netflix</strong>
+                    </div>
+                    <p class="overflowClip_2">Netflix 是一个视频网站，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.bilibili.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.bilibili.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/bilibili.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>bilibili</strong>
+                    </div>
+                    <p class="overflowClip_2">哔哩哔哩 (゜-゜)つロ 干杯~-bilibili 是一个弹幕视频网站，这里有最新、最热的高质量视频，包括国创、日剧、游戏等。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.douyin.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.douyin.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/douyin.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>抖音</strong>
+                    </div>
+                    <p class="overflowClip_2">抖音，一个提供短视频分享、搜索的平台，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.tiktok.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.tiktok.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/tiktok.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>抖音国际版</strong>
+                    </div>
+                    <p class="overflowClip_2">抖音，一个提供短视频分享、搜索的平台，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.kuaishou.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.kuaishou.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/kuaishou.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>快手</strong>
+                    </div>
+                    <p class="overflowClip_2">快手，一个提供短视频分享、搜索的平台，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.ixigua.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.ixigua.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/ixigua.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>西瓜视频</strong>
+                    </div>
+                    <p class="overflowClip_2">西瓜视频，一个提供视频分享、搜索的平台，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.twitch.tv/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.twitch.tv/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/twitch.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>twitch</strong>
+                    </div>
+                    <p class="overflowClip_2">twitch 是一个视频网站，提供视频上传、分享、观看、评论等服务。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.youku.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.youku.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/youku.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>优酷</strong>
+                    </div>
+                    <p class="overflowClip_2">优酷视频，全球最大视频平台，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://v.qq.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://v.qq.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/qq.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>腾讯视频</strong>
+                    </div>
+                    <p class="overflowClip_2">腾讯视频，海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="https://www.iqiyi.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="https://www.iqiyi.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/iqiyi.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>爱奇艺</strong>
+                    </div>
+                    <p class="overflowClip_2">爱奇艺是中国领先的在线视频媒体平台，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="http://www.mgtv.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="http://www.mgtv.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/mgtv.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>芒果TV</strong>
+                    </div>
+                    <p class="overflowClip_2">芒果TV是湖南广电倾力打造的互联网视频平台，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="http://tv.sohu.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="http://tv.sohu.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/sohu.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>搜狐视频</strong>
+                    </div>
+                    <p class="overflowClip_2">搜狐视频，海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="http://www.56.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="http://www.56.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/56.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>56视频</strong>
+                    </div>
+                    <p class="overflowClip_2">56视频，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="http://www.le.com/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="http://www.le.com/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/le.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>乐视视频</strong>
+                    </div>
+                    <p class="overflowClip_2">乐视视频，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
+            <div class="xe-card col-sm-4 col-md-3">
+              <a
+                href="http://www.nicovideo.jp/"
+                target="_blank"
+                class="xe-widget xe-conversations box2 label-info"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="http://www.nicovideo.jp/"
+              >
+                <div class="xe-comment-entry">
+                  <div class="xe-user-img">
+                    <img
+                      class="img-circle lazy"
+                      src="./assets/images/favicon.png"
+                      data-src="assets/images/logos/nicovideo.png"
+                      onerror="javascript:this.src='./assets/images/favicon.png'"
+                      width="55"
+                    />
+                  </div>
+                  <div class="xe-comment">
+                    <div class="xe-user-name overflowClip_1">
+                      <strong>ニコニコ動画</strong>
+                    </div>
+                    <p class="overflowClip_2">ニコニコ動画，日本最大的视频分享网站，提供海量高清视频在线观看，支持视频收藏、分享、下载。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+              
             <div class="xe-card col-sm-4 col-md-3">
               <a
                 href="https://movie.douban.com/"
@@ -4562,9 +5693,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/douban.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4572,93 +5703,6 @@
                       <strong>豆瓣电影</strong>
                     </div>
                     <p class="overflowClip_2">豆瓣电影是一个用户参与型的电影数据库，提供海量正版高清电影资源和影评，是一个了解电影、交流观影感想的平台。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.1905.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.1905.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>1905电影网</strong>
-                    </div>
-                    <p class="overflowClip_2">1905电影网是中国电影资讯门户网站，提供最新最快的电影资讯、电影预告、电影票房、电影片单等信息。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://maoyan.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://maoyan.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>猫眼电影</strong>
-                    </div>
-                    <p class="overflowClip_2">猫眼电影是中国领先的电影娱乐服务平台，提供最新最全的电影、影片、影讯、在线购票、影评信息。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.gewara.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.gewara.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>格瓦拉</strong>
-                    </div>
-                    <p class="overflowClip_2">格瓦拉是中国领先的在线影院，提供最新电影购票、影讯、影评等服务。</p>
                   </div>
                 </div>
               </a>
@@ -4678,9 +5722,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/6v.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4707,9 +5751,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/yyets.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4736,9 +5780,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/dy2018.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4765,9 +5809,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/dytt8.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4775,35 +5819,6 @@
                       <strong>电影天堂</strong>
                     </div>
                     <p class="overflowClip_2">电影天堂是一个提供最新电影下载和在线观看的影视网站，包括电影、电视剧、动漫等资源。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="http://www.ygdy8.net/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="http://www.ygdy8.net/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>阳光电影</strong>
-                    </div>
-                    <p class="overflowClip_2">阳光电影是一个提供最新电影下载和在线观看的影视网站，包括电影、电视剧、动漫等资源。</p>
                   </div>
                 </div>
               </a>
@@ -4823,9 +5838,9 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/piaohua.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
@@ -4833,180 +5848,6 @@
                       <strong>飘花电影网</strong>
                     </div>
                     <p class="overflowClip_2">飘花电影网是一个提供最新电影下载和在线观看的影视网站，包括电”影、电视剧、动漫等资源。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.imdb.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.imdb.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>IMDb</strong>
-                    </div>
-                    <p class="overflowClip_2">IMDb is the world&#39;s most popular and authoritative source for movie, TV, and celebrity content. It offers a vast collection of movie information, including trailers, reviews, and showtimes.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.rottentomatoes.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.rottentomatoes.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>Rotten Tomatoes</strong>
-                    </div>
-                    <p class="overflowClip_2">Rotten Tomatoes aggregates movie and TV show reviews from critics and audiences. It provides a Tomatometer score, which reflects the overall critical consensus on a movie or TV show.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.metacritic.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.metacritic.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>Metacritic</strong>
-                    </div>
-                    <p class="overflowClip_2">Metacritic compiles reviews from entertainment critics and publications and calculates an average score for movies, TV shows, music albums, and games.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.boxofficemojo.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.boxofficemojo.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>Box Office Mojo</strong>
-                    </div>
-                    <p class="overflowClip_2">Box Office Mojo is the internet&#39;s most trusted box office reporting service. It provides in-depth movie financial analysis, daily box office charts, and more.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://letterboxd.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://letterboxd.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>Letterboxd</strong>
-                    </div>
-                    <p class="overflowClip_2">Letterboxd is a social network for sharing your taste in film. It allows you to track the movies you&#39;ve watched, create and share movie lists, and connect with other film enthusiasts.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-              
-            <div class="xe-card col-sm-4 col-md-3">
-              <a
-                href="https://www.fandango.com/"
-                target="_blank"
-                class="xe-widget xe-conversations box2 label-info"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="https://www.fandango.com/"
-              >
-                <div class="xe-comment-entry">
-                  <div class="xe-user-img">
-                    <img
-                      class="img-circle lazy"
-                      src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
-                      onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
-                    />
-                  </div>
-                  <div class="xe-comment">
-                    <div class="xe-user-name overflowClip_1">
-                      <strong>Fandango</strong>
-                    </div>
-                    <p class="overflowClip_2">Fandango is a leading digital network for all things movies. It offers movie tickets, trailers, news, and original video content, helping movie fans discover, buy tickets, and share their passion for movies.</p>
                   </div>
                 </div>
               </a>
@@ -5041,16 +5882,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/epic.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Epic Games Store</strong>
                     </div>
-                    <p class="overflowClip_2">Epic Games Store is a digital distribution platform for PC and Mac games. It features a free game every week and exclusive titles.</p>
+                    <p class="overflowClip_2">Epic Games Store 是一个为 PC 和 Mac 游戏提供数字分销的平台。它每周都有免费游戏，还有专享游戏。</p>
                   </div>
                 </div>
               </a>
@@ -5070,16 +5911,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/steam.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Steam</strong>
                     </div>
-                    <p class="overflowClip_2">Steam is a digital distribution platform developed by Valve Corporation, offering a vast selection of games, software, and other content.</p>
+                    <p class="overflowClip_2">Steam 是一个由 Valve 公司开发的数字分销平台，提供大量的游戏、软件和其他内容。</p>
                   </div>
                 </div>
               </a>
@@ -5099,16 +5940,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/psblog.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>PlayStation Blog</strong>
                     </div>
-                    <p class="overflowClip_2">PlayStation Blog is the official blog of PlayStation, providing news, updates, and announcements about PlayStation games and hardware.</p>
+                    <p class="overflowClip_2">PlayStation Blog 是 PlayStation 的官方博客，提供关于 PlayStation 游戏和设备的新闻、更新和公告。</p>
                   </div>
                 </div>
               </a>
@@ -5128,16 +5969,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/xboxwire.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Xbox Wire</strong>
                     </div>
-                    <p class="overflowClip_2">Xbox Wire is the official news site for Xbox, offering news, announcements, and updates about Xbox games, consoles, and services.</p>
+                    <p class="overflowClip_2">Xbox Wire 是 Xbox 的官方新闻网站，提供关于 Xbox 游戏、设备和服务的新闻、公告和更新。</p>
                   </div>
                 </div>
               </a>
@@ -5157,16 +5998,16 @@
                     <img
                       class="img-circle lazy"
                       src="./assets/images/favicon.png"
-                      data-src="URL_TO_LOGO_IMAGE"
+                      data-src="assets/images/logos/gamejolt.png"
                       onerror="javascript:this.src='./assets/images/favicon.png'"
-                      width="40"
+                      width="55"
                     />
                   </div>
                   <div class="xe-comment">
                     <div class="xe-user-name overflowClip_1">
                       <strong>Game Jolt</strong>
                     </div>
-                    <p class="overflowClip_2">Game Jolt is a platform for indie game developers to showcase their games. It features a wide variety of indie games for players to discover and play.</p>
+                    <p class="overflowClip_2">Game Jolt 是一个为independent game developers提供展示平台的游戏。这里有各种 independent 游戏供玩家发现和游玩。</p>
                   </div>
                 </div>
               </a>
@@ -5178,6 +6019,13 @@
            
         </div>
         <footer class="main-footer sticky footer-type-1">
+          
+          <div class="dark-mode">
+            <div>
+              <i class="fa fa-moon-o" id="darkMode"></i>
+            </div>
+          </div>
+          
           <div class="go-up">
             <a href="#" rel="go-top">
               <i class="fa fa-angle-up"></i>
