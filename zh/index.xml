@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seiri&#39;s 网址导航</title>
+    <link>https://tools-site.github.io/zh/</link>
+    <description>Recent content on Seiri&#39;s 网址导航</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Seiri All rights reserved</copyright><atom:link href="https://tools-site.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>隐私政策</title>
+      <link>https://tools-site.github.io/zh/about/</link>
+      <pubDate>Thu, 05 Oct 2023 14:34:03 +0900</pubDate>
+      
+      <guid>https://tools-site.github.io/zh/about/</guid>
+      <description>获取用户信息 获取用户信息本网站不会获取用户的个人信息。
+利用用户信息 本网站不使用使用者的个人信息。
+用户信息的第三方提供 本网站不向第三方提供用户的个人信息。
+版权   本网站上内容的版权归本网站所有。
+  禁止擅自复制和重新分发本网站上的内容。
+  如果您对本网站上的内容有任何疑问或报告，请与本网站联系。
+  免责声明   对于因使用本网站上的内容而造成的损害或纠纷，本网站概不负责。
+  本网站始终致力于提供准确、完整的内容信息，但不保证其准确性和完整性。
+  使用工具 本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。
+关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
+联系人 如果有关于本网站的咨询或报告，请通过评论咨询。</description>
+    </item>
+    
+  </channel>
+</rss>
