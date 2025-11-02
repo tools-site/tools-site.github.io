@@ -4,10 +4,14 @@
   <sitemap>
     <loc>https://tools-site.github.io/zh/sitemap.xml</loc>
     
+      <lastmod>2023-10-05T14:34:03+09:00</lastmod>
+    
   </sitemap>
   
   <sitemap>
     <loc>https://tools-site.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2023-10-05T14:34:03+09:00</lastmod>
     
   </sitemap>
   

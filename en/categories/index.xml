@@ -6,6 +6,7 @@
     <description>Recent content in Categories on Seiri&#39;s Website Navigation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Seiri All rights reserved</copyright><atom:link href="https://tools-site.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Seiri All rights reserved</copyright>
+    <atom:link href="https://tools-site.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

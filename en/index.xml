@@ -6,20 +6,15 @@
     <description>Recent content on Seiri&#39;s Website Navigation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Seiri All rights reserved</copyright><atom:link href="https://tools-site.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Seiri All rights reserved</copyright>
+    <lastBuildDate>Thu, 05 Oct 2023 14:34:03 +0900</lastBuildDate>
+    <atom:link href="https://tools-site.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy Policy</title>
       <link>https://tools-site.github.io/en/about/</link>
       <pubDate>Thu, 05 Oct 2023 14:34:03 +0900</pubDate>
-      
       <guid>https://tools-site.github.io/en/about/</guid>
-      <description>Collection of User Information This website does not collect personal information from users.
-Use of User Information This website does not utilize user&amp;rsquo;s personal information.
-Third-Party Disclosure This website does not provide users&#39; personal information to third parties.
-Copyright   The copyright of the content on this website belongs to this website.
-  Unauthorized copying and redistribution of the content on this website are prohibited.
-  If you have any questions or concerns about the content on this website, please contact us.</description>
+      <description>Collection of User Information This website does not collect personal information from users.&#xA;Use of User Information This website does not utilize user&amp;rsquo;s personal information.&#xA;Third-Party Disclosure This website does not provide users&amp;rsquo; personal information to third parties.&#xA;Copyright The copyright of the content on this website belongs to this website.&#xA;Unauthorized copying and redistribution of the content on this website are prohibited.&#xA;If you have any questions or concerns about the content on this website, please contact us.</description>
     </item>
-    
   </channel>
 </rss>
